@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    padding: 20px 0px;
+    background-color: tomato;
+
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+.nav ul li a{
+    margin: 0px 20px;
+    text-decoration: none;
+}
+body{
+    background-color: blue;
+}
