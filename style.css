@@ -3,21 +3,85 @@
     padding: 0;
     box-sizing: border-box;
 }
-.nav{
-    padding: 20px 0px;
+.hi{
+    height: 300px;
+    width: 400px;
     background-color: tomato;
+}
+.we{
+    height: 40%;
+    width: 100%;
+    background-color: green;
+}
+.so{height: 100%;
+     width: 60%;
+      background-color: 
+    red;
+}
+.as{
+    height: 60%; width: 60%; background-color:
+aqua
+}
+.newbox{
+height: 330px;
+width: 200px;
+
+
+background-color: aqua;
+color: tomato;
+border-radius: 5%;
+}
+.oldbox{
+height: 330px;
+width: 200px;
+background-color:gold;
+border-radius: 5%;
+color:black
 
 }
-.nav ul{
-    display: flex;
-    list-style: none;
-    justify-content: center;
+.black{
+height: 330px;
+width: 200px;
+background-color: tomato;
+border-radius: 5%;
+color: blue;
+}
+.wasi{
+background-color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-.nav ul li a{
-    margin: 0px 20px;
+form{
+width: 300px;
+margin:  auto;
+background-color:tomato;
+padding: 20px;
+border: 1px solid #cccccc;
+border-radius: 5px;
+text-align-last: center;
+}
+
+.wasi input[type='submit']{
+width: 100%;
+padding: 10px;
+background-color: gold;
+color: #ffffff;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+}
+.menu{
+    background-color: tomato;
+    border-radius: 10px;
+}
+
+.menu ul{
+   list-style: none;
+   display: flex;
+   padding: 20px;
+}
+
+.menu a{
     text-decoration: none;
-}
-body{
-    background-color: blue;
-}
+    padding: 100px;
+    color: yellow;}
